@@ -1,0 +1,51 @@
+Practice quiz:
+
+The following questions should be answered after completing v4 of the game
+Rabbit Attack.
+
+a. What is the first statement executed when the program is run?
+
+b. What happens if a player enters 'yes' for to the question "Shall we 
+   use the Holy Hand Grenade?"
+
+c. How many knights begin the attack?
+
+d. Which statement reduces the number of living knights by one?
+
+e. Suppose during game play you see the sentence, "All of the knights are 
+   dead. You lose." What values are stored in the variables rabbit_is_alive, 
+   use_grenade, and num_knights respectively at that point?
+
+f. Suppose during game play you see the sentence, "Goodbye. Thanks for playing!"
+   What value is stored in the variable playing at that point?
+
+g. Suppose you play the game and your answers to the question "Shall we 
+   use the Holy Hand Grenade?" are as follows:
+   
+		n, no, nope, yup, y
+		
+   How many knights died?
+
+h. Referring to question g... What are the values stored in rabbit_is_alive,
+   use_grenade, and num_knights respectively after the last input?
+
+
+Make a copy of the program called rabbit_attack_v5.py.
+
+i. Replace everything in the while playing loop that relates to playing again
+   with a single line of code. (Hint: Call the confirm function.)
+
+j. Edit the confirm function so that answers of 'y', 'yes', 'n', and 'no' 
+   are all accepted and give proper results. Any other answer should results
+   in being asked the question again.
+
+k. Edit the confirm function so that it is not case sensitive. That is,
+   answers such as Yes, YES, and yEs should all be treated the same.
+
+l. Compare this version to the original (v1). How would adding the features
+   in parts j and k have been more difficult if the game wasn't refactored
+   to use a confirm function?
+
+m. Explain how parts of your code become reusable because of refactoring.
+   Describe another application where you may be able to use the confirm
+   function.
